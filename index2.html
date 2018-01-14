@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bootstrap 3.7 page structure with CDN and jQuery</title>
+
+    <!-- These Links point to Your style sheets; you may/will need to alter these paths to your sites file structure. Note: Reset.css must come FIRST!!! -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- jQuery uncompressed CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- HTML Form for handling the inputs-->
+        <form role="form">
+
+            <!-- Text box for holding the search term-->
+            <div class="form-group">
+                <label for="search">Search Term:</label>
+                <input type="text" class="form-control" id="search-term">
+            </div>
+            <button id="search" class="btn btn-primary" type="submit">"Search for cars"</button>
+        </form>
+
+
+
+<!-- creates a place to store the buttons into -->
+<div id="btnList">
+
+    <!-- hard coding some buttons -->
+<button class = "btn btn-info">Ferrari</button>
+<button class = "btn btn-info">Rolls Royce</button>
+
+</div>
+
+<!-- creates a place to store the gifs into -->
+<div id="gifContainer"></div>
+
+    </div>
+
+    <!-- links index2.html to main.js -->
+    <script src="main.js"></script>
+</body>
+
+</html>
