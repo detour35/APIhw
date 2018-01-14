@@ -27,7 +27,7 @@ $(function () {
         var btnText = $(this).text();
         // Our ajax call communicates with the Giphy server and gets a response
         $.ajax({
-            url: "http://api.giphy.com/v1/gifs/search?q=" + btnText + "&api_key=lFF9Yxkitf2ugL6Waes2cFHNZ8UE1h5i&limit=9",
+            url: "https://api.giphy.com/v1/gifs/search?q=" + btnText + "&api_key=lFF9Yxkitf2ugL6Waes2cFHNZ8UE1h5i&limit=9",
             request: 'GET'
 
             // when ajax request is finished run the promise below
